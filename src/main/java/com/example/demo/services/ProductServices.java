@@ -11,7 +11,7 @@ import java.util.List;
 * Tato třída poskytuje službu pro práci s Produkty a repozitářem
 */
 @Service
-public class ProductServices {
+public class ProductService {
 
     @Autowired
     ProductRepository productRepository;
@@ -19,7 +19,7 @@ public class ProductServices {
     /*
      * Konstruktor třídy ProductServices
      */
-    public ProductServices() {
+    public ProductService() {
     }
 
     /*
