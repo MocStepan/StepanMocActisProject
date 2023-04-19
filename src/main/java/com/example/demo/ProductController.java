@@ -21,7 +21,7 @@ import java.util.Random;
 public class ProductController {
 
     @Autowired
-    ProductServices productServices;
+    ProductService productService;
 
     public ProductController() {
     }
