@@ -51,8 +51,7 @@ public class ProductController {
         int randomMonth = rd.nextInt(12)+1;
         YearMonth yearMonth = YearMonth.of(randomYear,randomMonth);
         int randomDay = rd.nextInt(yearMonth.lengthOfMonth())+1;
-        LocalDate date = LocalDate.of(randomYear,randomMonth,randomDay);
-        return date;
+        return LocalDate.Of(randomYear, randomMonth, randomDay);
     }
 
     /*
